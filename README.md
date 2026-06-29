@@ -63,18 +63,19 @@ streamlit run app.py
 
 
 
-
 Project Structure
 
+```
 pitch-deck-evaluator/
 ├── app.py              # Main Streamlit application
-├── pdf\_extractor.py    # PDF text extraction logic
-├── slide\_parser.py     # Slide formatting utilities
-├── llm\_evaluator.py    # Gemini evaluation engine
+├── pdf_extractor.py    # PDF text extraction logic
+├── slide_parser.py     # Slide formatting utilities
+├── llm_evaluator.py    # Gemini evaluation engine
 ├── aggregator.py       # Score aggregation logic
 ├── .env.example        # Environment variable template
 ├── requirements.txt    # Python dependencies
 └── README.md           # Project documentation
+```
 
 Output
 
